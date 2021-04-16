@@ -1,0 +1,21 @@
+{
+  "name": "luis",
+  "version": "1.0.0",
+  "main": "entry",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "license": "initialized",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sucrase": "^3.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "description": "Aplicação do backEnd do goBarber praticado no bootcamp",
+  "repository": "https://github.com/luiscaputo/goBarber-back-end.git",
+  "author": "Luís Afonso Caputo",
+  "private": true
+}

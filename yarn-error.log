@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Nelo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sucrase nodemon -D
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Nelo\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\Nelo\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\wamp64\bin\php\php7.3.5;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Nelo\AppData\Local\Microsoft\WindowsApps;C:\Users\Nelo\AppData\Roaming\Composer\vendor\bin;C:\Users\Nelo\AppData\Roaming\npm;C:\Users\Nelo\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: tunneling socket could not be established, statusCode=405
+      at ClientRequest.onConnect (C:\Users\Nelo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:152224:19)
+      at Object.onceWrapper (events.js:422:26)
+      at ClientRequest.emit (events.js:315:20)
+      at Socket.socketOnData (_http_client.js:547:11)
+      at Socket.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+      at readableAddChunk (internal/streams/readable.js:284:9)
+      at Socket.Readable.push (internal/streams/readable.js:223:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+
+npm manifest: 
+  {
+    "name": "goBarber",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon src/server.js",
+      "dev:debug":"nodemon --inspect src/server.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "sucrase": "^3.18.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
