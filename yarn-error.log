@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Nelo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sucrase nodemon -D
+  C:\Program Files\nodejs\node.exe C:\Users\Nelo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add eslint
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Nelo\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Users\Nelo\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\wamp64\bin\php\php7.3.5;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Nelo\AppData\Local\Microsoft\WindowsApps;C:\Users\Nelo\AppData\Roaming\Composer\vendor\bin;C:\Users\Nelo\AppData\Roaming\npm;C:\Users\Nelo\AppData\Local\Programs\Microsoft VS Code\bin
@@ -27,21 +27,25 @@ Trace:
 
 npm manifest: 
   {
-    "name": "goBarber",
+    "name": "luis",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "entry",
     "scripts": {
       "dev": "nodemon src/server.js",
-      "dev:debug":"nodemon --inspect src/server.js"
+      "dev:debug": "nodemon --inspect src/server.js"
     },
-    "license": "MIT",
+    "license": "initialized",
     "dependencies": {
       "express": "^4.17.1",
       "sucrase": "^3.18.1"
     },
     "devDependencies": {
       "nodemon": "^2.0.7"
-    }
+    },
+    "description": "Aplicação do backEnd do goBarber praticado no bootcamp",
+    "repository": "https://github.com/luiscaputo/goBarber-back-end.git",
+    "author": "Luís Afonso Caputo",
+    "private": true
   }
 
 yarn manifest: 
