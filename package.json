@@ -8,12 +8,14 @@
   },
   "license": "initialized",
   "dependencies": {
-    "eslint": "^7.24.0",
     "express": "^4.17.1",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
     "sucrase": "^3.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "eslint": "^7.24.0"
   },
   "description": "Aplicação do backEnd do goBarber praticado no bootcamp",
   "repository": "https://github.com/luiscaputo/goBarber-back-end.git",
